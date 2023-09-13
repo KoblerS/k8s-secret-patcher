@@ -1,0 +1,19 @@
+{
+  "name": "secret-patcher",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Simon Kobler",
+    "url": "https://github.com/KoblerS"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo Error: no test specified",
+    "lint":" echo No linting neccessary!"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.14.3"
+  }
+}
